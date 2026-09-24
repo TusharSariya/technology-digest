@@ -1,0 +1,129 @@
+[
+  {
+    "id": "aws",
+    "technology": "AWS",
+    "kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/recent/feed/",
+    "interval": 3600
+  },
+  {
+    "id": "kubernetes-blog",
+    "technology": "Kubernetes",
+    "kind": "rss",
+    "url": "https://kubernetes.io/feed.xml",
+    "interval": 21600
+  },
+  {
+    "id": "terraform-blog",
+    "technology": "Terraform",
+    "kind": "rss",
+    "url": "https://www.hashicorp.com/blog/feed.xml",
+    "interval": 21600,
+    "title_contains": "terraform"
+  },
+  {
+    "id": "opentofu-blog",
+    "technology": "OpenTofu",
+    "kind": "rss",
+    "url": "https://opentofu.org/blog/rss.xml",
+    "interval": 21600
+  },
+  {
+    "id": "dotnet-blog",
+    "technology": "C#/.NET",
+    "kind": "rss",
+    "url": "https://devblogs.microsoft.com/dotnet/feed/",
+    "interval": 21600
+  },
+  {
+    "id": "typescript-blog",
+    "technology": "TypeScript",
+    "kind": "rss",
+    "url": "https://devblogs.microsoft.com/typescript/feed/",
+    "interval": 21600
+  },
+  {
+    "id": "cilium-blog",
+    "technology": "Cilium",
+    "kind": "rss",
+    "url": "https://cilium.io/blog/rss.xml",
+    "interval": 21600
+  },
+  {
+    "id": "istio-blog",
+    "technology": "Istio",
+    "kind": "rss",
+    "url": "https://istio.io/latest/blog/feed.xml",
+    "interval": 21600
+  },
+  {
+    "id": "openfga-blog",
+    "technology": "OpenFGA",
+    "kind": "rss",
+    "url": "https://openfga.dev/blog/rss.xml",
+    "interval": 21600
+  },
+  {
+    "id": "kubernetes-kubernetes",
+    "technology": "Kubernetes",
+    "kind": "github",
+    "url": "https://api.github.com/repos/kubernetes/kubernetes/releases?per_page=100",
+    "interval": 21600
+  },
+  {
+    "id": "hashicorp-terraform",
+    "technology": "Terraform",
+    "kind": "github",
+    "url": "https://api.github.com/repos/hashicorp/terraform/releases?per_page=100",
+    "interval": 21600
+  },
+  {
+    "id": "opentofu-opentofu",
+    "technology": "OpenTofu",
+    "kind": "github",
+    "url": "https://api.github.com/repos/opentofu/opentofu/releases?per_page=20",
+    "interval": 21600
+  },
+  {
+    "id": "dotnet-core",
+    "technology": "C#/.NET",
+    "kind": "github",
+    "url": "https://api.github.com/repos/dotnet/core/releases?per_page=100",
+    "interval": 21600
+  },
+  {
+    "id": "dotnet-roslyn",
+    "technology": "C#/.NET",
+    "kind": "github",
+    "url": "https://api.github.com/repos/dotnet/roslyn/releases?per_page=100",
+    "interval": 21600
+  },
+  {
+    "id": "microsoft-TypeScript",
+    "technology": "TypeScript",
+    "kind": "github",
+    "url": "https://api.github.com/repos/microsoft/TypeScript/releases?per_page=100",
+    "interval": 21600
+  },
+  {
+    "id": "cilium-cilium",
+    "technology": "Cilium",
+    "kind": "github",
+    "url": "https://api.github.com/repos/cilium/cilium/releases?per_page=100",
+    "interval": 21600
+  },
+  {
+    "id": "istio-istio",
+    "technology": "Istio",
+    "kind": "github",
+    "url": "https://api.github.com/repos/istio/istio/releases?per_page=100",
+    "interval": 21600
+  },
+  {
+    "id": "openfga-openfga",
+    "technology": "OpenFGA",
+    "kind": "github",
+    "url": "https://api.github.com/repos/openfga/openfga/releases?per_page=100",
+    "interval": 21600
+  }
+]
